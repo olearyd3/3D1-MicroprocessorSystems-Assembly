@@ -4,7 +4,7 @@ start:
     MOV		r4, r0
     LDR		r1, 	=0x1
 
-    @repeat AND,EOR,MOV each time
+    // repeat AND,EOR,MOV each time
     AND		r2, r0, r1
     EOR		r3, r3, r2
     MOV		r0, r0, LSR #1
