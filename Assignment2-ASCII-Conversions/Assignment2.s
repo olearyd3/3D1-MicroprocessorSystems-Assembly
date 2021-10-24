@@ -8,7 +8,7 @@ start:
 	LDR	R2, ='7'
 	LDR	R1, ='9'
 	
-@subtract 30 if numeric
+	// subtract 30 if numeric
 	SUB r7, #0x30
 	SUB r6, #0x30
 	SUB r5, #0x30
@@ -17,7 +17,7 @@ start:
 	SUB r2, #0x30
 	SUB r1, #0x30
 	
-@multiply each R value by the corresponding amount relevant to its slot
+	// multiply each R value by the corresponding amount relevant to its slot
 	LDR r8, =1000000
 	MUL r7, r7, r8
 	
@@ -36,7 +36,7 @@ start:
 	LDR r8, =10
 	MUL r2, r2, r8
 	
-@add all of the values and assign to R0
+	// add all of the values and assign to R0
 	ADD r7, r7, r6
 	ADD r7, r7, r5
 	ADD r7, r7, r4
