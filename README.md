@@ -10,3 +10,7 @@ Assignment 3 - Calculating the parity bit for a number
 Assignment 4 - Generating a hamming code
 
 Assignment 5 - Detecting and correcting single bit errors in hamming code
+
+Assignment 6 - Converting Hex to Val
+
+Assignment 7 - Converting Val to Hex
